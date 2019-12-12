@@ -309,7 +309,7 @@ SUITESPARSE_VERSION = 5.4.0
     #               Performance Library
     # -DGPU_BLAS    enable the use of the CUDA BLAS
 
-    CHOLMOD_CONFIG ?= $(GPU_CONFIG)
+    CHOLMOD_CONFIG ?= $(GPU_CONFIG) -DNGPL
 
     #---------------------------------------------------------------------------
     # SuiteSparseQR configuration:
